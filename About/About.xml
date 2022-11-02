@@ -4,7 +4,7 @@
 	<author>Flixbox</author>
 	<supportedVersions>
 		<li>1.4</li>
-    </supportedVersions>
+	</supportedVersions>
 	<packageId>Flixbox.MO.Leathers</packageId>
 	<loadAfter>
 		<li>DankPyon.Medieval.Overhaul</li>
@@ -37,13 +37,14 @@
 		<li>sirmashedpotato.morrowrim.bloodmoon</li>
 		<li>forsakens.fauna</li>
 		<li>rebelrabbit.direwolves</li>
+		<li>sarg.magicalmenagerie</li>
 	</loadAfter>
 	<modDependencies>
-	  <li>
-		<packageId>DankPyon.Medieval.Overhaul</packageId>
-		<displayName>Medieval Overhaul (unofficial)</displayName>
-		<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2882277375</steamWorkshopUrl>
-	  </li>
+		<li>
+			<packageId>DankPyon.Medieval.Overhaul</packageId>
+			<displayName>Medieval Overhaul (unofficial)</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2882277375</steamWorkshopUrl>
+		</li>
 	</modDependencies>
 	<description>[Updated version until Lavakookie updates their version] Raise your can of beer on high, And seal your fate forever - Our best years have past us by, The golden age of leather...</description>
 </ModMetaData>

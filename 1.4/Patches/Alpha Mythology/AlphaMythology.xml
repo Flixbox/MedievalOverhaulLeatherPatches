@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
   <Operation Class="PatchOperationFindMod">
     <mods>
-      <li>Magical Menagerie</li>
+      <li>Alpha Mythology</li>
     </mods>
     <match Class="PatchOperationSequence">
       <success>Normal</success>
@@ -33,17 +33,17 @@
           </value>
         </li>
 
-      <li Class="PatchOperationAdd">
-        <xpath>Defs/PawnKindDef [defName="MM_Ahuizotl"]/lifeStages/li[3]</xpath>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/PawnKindDef [defName="MM_Ahuizotl"]/lifeStages/li[3]</xpath>
 
-        <value>
-          <butcherBodyPart>
-            <bodyPartGroup>HeadAttackTool</bodyPartGroup>
-            <thing>DankPyon_Hide_MM_Ahuizotl</thing>
-            <allowFemale>true</allowFemale>
-          </butcherBodyPart>
-        </value>
-      </li>
+          <value>
+            <butcherBodyPart>
+              <bodyPartGroup>HeadAttackTool</bodyPartGroup>
+              <thing>DankPyon_Hide_MM_Ahuizotl</thing>
+              <allowFemale>true</allowFemale>
+            </butcherBodyPart>
+          </value>
+        </li>
 
         <!-- Basilisk -->
         <li Class="PatchOperationAdd">
@@ -71,17 +71,17 @@
           </value>
         </li>
 
-      <li Class="PatchOperationAdd">
-        <xpath>Defs/PawnKindDef [defName="MM_Basilisk"]/lifeStages/li[3]</xpath>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/PawnKindDef [defName="MM_Basilisk"]/lifeStages/li[3]</xpath>
 
-        <value>
-          <butcherBodyPart>
-            <bodyPartGroup>HeadAttackTool</bodyPartGroup>
-            <thing>DankPyon_Hide_MM_Basilisk</thing>
-            <allowFemale>true</allowFemale>
-          </butcherBodyPart>
-        </value>
-      </li>
+          <value>
+            <butcherBodyPart>
+              <bodyPartGroup>HeadAttackTool</bodyPartGroup>
+              <thing>DankPyon_Hide_MM_Basilisk</thing>
+              <allowFemale>true</allowFemale>
+            </butcherBodyPart>
+          </value>
+        </li>
 
         <!-- Catoblepas -->
         <li Class="PatchOperationAdd">
@@ -107,17 +107,17 @@
           </value>
         </li>
 
-      <li Class="PatchOperationAdd">
-        <xpath>Defs/PawnKindDef [defName="MM_Catoblepas"]/lifeStages/li[3]</xpath>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/PawnKindDef [defName="MM_Catoblepas"]/lifeStages/li[3]</xpath>
 
-        <value>
-          <butcherBodyPart>
-            <bodyPartGroup>HeadAttackTool</bodyPartGroup>
-            <thing>DankPyon_Hide_MM_Catoblepas</thing>
-            <allowFemale>true</allowFemale>
-          </butcherBodyPart>
-        </value>
-      </li>
+          <value>
+            <butcherBodyPart>
+              <bodyPartGroup>HeadAttackTool</bodyPartGroup>
+              <thing>DankPyon_Hide_MM_Catoblepas</thing>
+              <allowFemale>true</allowFemale>
+            </butcherBodyPart>
+          </value>
+        </li>
 
         <!-- Cerberus -->
         <li Class="PatchOperationAdd">
@@ -143,17 +143,17 @@
           </value>
         </li>
 
-      <li Class="PatchOperationAdd">
-        <xpath>Defs/PawnKindDef [defName="MM_Cerberus"]/lifeStages/li[3]</xpath>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/PawnKindDef [defName="MM_Cerberus"]/lifeStages/li[3]</xpath>
 
-        <value>
-          <butcherBodyPart>
-            <bodyPartGroup>FrontRightPaw</bodyPartGroup>
-            <thing>DankPyon_Hide_MM_Cerberus</thing>
-            <allowFemale>true</allowFemale>
-          </butcherBodyPart>
-        </value>
-      </li>
+          <value>
+            <butcherBodyPart>
+              <bodyPartGroup>FrontRightPaw</bodyPartGroup>
+              <thing>DankPyon_Hide_MM_Cerberus</thing>
+              <allowFemale>true</allowFemale>
+            </butcherBodyPart>
+          </value>
+        </li>
 
         <!-- Ceryneian Hind -->
         <li Class="PatchOperationAdd">
@@ -179,17 +179,17 @@
           </value>
         </li>
 
-      <li Class="PatchOperationAdd">
-        <xpath>Defs/PawnKindDef [defName="MM_CeryneianHind"]/lifeStages/li[3]</xpath>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/PawnKindDef [defName="MM_CeryneianHind"]/lifeStages/li[3]</xpath>
 
-        <value>
-          <butcherBodyPart>
-            <bodyPartGroup>HeadAttackTool</bodyPartGroup>
-            <thing>DankPyon_Hide_MM_CeryneianHind</thing>
-            <allowFemale>true</allowFemale>
-          </butcherBodyPart>
-        </value>
-      </li>
+          <value>
+            <butcherBodyPart>
+              <bodyPartGroup>HeadAttackTool</bodyPartGroup>
+              <thing>DankPyon_Hide_MM_CeryneianHind</thing>
+              <allowFemale>true</allowFemale>
+            </butcherBodyPart>
+          </value>
+        </li>
 
         <!-- Chimera -->
         <li Class="PatchOperationAdd">
@@ -215,17 +215,17 @@
           </value>
         </li>
 
-      <li Class="PatchOperationAdd">
-        <xpath>Defs/PawnKindDef [defName="MM_Chimera"]/lifeStages/li[3]</xpath>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/PawnKindDef [defName="MM_Chimera"]/lifeStages/li[3]</xpath>
 
-        <value>
-          <butcherBodyPart>
-            <bodyPartGroup>HeadAttackTool</bodyPartGroup>
-            <thing>DankPyon_Hide_MM_Chimera</thing>
-            <allowFemale>true</allowFemale>
-          </butcherBodyPart>
-        </value>
-      </li>
+          <value>
+            <butcherBodyPart>
+              <bodyPartGroup>HeadAttackTool</bodyPartGroup>
+              <thing>DankPyon_Hide_MM_Chimera</thing>
+              <allowFemale>true</allowFemale>
+            </butcherBodyPart>
+          </value>
+        </li>
 
         <!-- Erymanthian Boar -->
         <li Class="PatchOperationAdd">
@@ -251,17 +251,17 @@
           </value>
         </li>
 
-      <li Class="PatchOperationAdd">
-        <xpath>Defs/PawnKindDef [defName="MM_ErymanthianBoar"]/lifeStages/li[3]</xpath>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/PawnKindDef [defName="MM_ErymanthianBoar"]/lifeStages/li[3]</xpath>
 
-        <value>
-          <butcherBodyPart>
-            <bodyPartGroup>HeadAttackTool</bodyPartGroup>
-            <thing>DankPyon_Hide_MM_ErymanthianBoar</thing>
-            <allowFemale>true</allowFemale>
-          </butcherBodyPart>
-        </value>
-      </li>
+          <value>
+            <butcherBodyPart>
+              <bodyPartGroup>HeadAttackTool</bodyPartGroup>
+              <thing>DankPyon_Hide_MM_ErymanthianBoar</thing>
+              <allowFemale>true</allowFemale>
+            </butcherBodyPart>
+          </value>
+        </li>
 
         <!-- Fenghuang -->
         <li Class="PatchOperationAdd">
@@ -287,17 +287,17 @@
           </value>
         </li>
 
-      <li Class="PatchOperationAdd">
-        <xpath>Defs/PawnKindDef [defName="MM_Fenghuang"]/lifeStages/li[3]</xpath>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/PawnKindDef [defName="MM_Fenghuang"]/lifeStages/li[3]</xpath>
 
-        <value>
-          <butcherBodyPart>
-            <bodyPartGroup>HeadAttackTool</bodyPartGroup>
-            <thing>DankPyon_Hide_MM_Fenghuang</thing>
-            <allowFemale>true</allowFemale>
-          </butcherBodyPart>
-        </value>
-      </li>
+          <value>
+            <butcherBodyPart>
+              <bodyPartGroup>HeadAttackTool</bodyPartGroup>
+              <thing>DankPyon_Hide_MM_Fenghuang</thing>
+              <allowFemale>true</allowFemale>
+            </butcherBodyPart>
+          </value>
+        </li>
 
         <!-- Griffin -->
         <li Class="PatchOperationAdd">
@@ -323,17 +323,17 @@
           </value>
         </li>
 
-      <li Class="PatchOperationAdd">
-        <xpath>Defs/PawnKindDef [defName="MM_Griffin"]/lifeStages/li[3]</xpath>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/PawnKindDef [defName="MM_Griffin"]/lifeStages/li[3]</xpath>
 
-        <value>
-          <butcherBodyPart>
-            <bodyPartGroup>HeadAttackTool</bodyPartGroup>
-            <thing>DankPyon_Hide_MM_Griffin</thing>
-            <allowFemale>true</allowFemale>
-          </butcherBodyPart>
-        </value>
-      </li>
+          <value>
+            <butcherBodyPart>
+              <bodyPartGroup>HeadAttackTool</bodyPartGroup>
+              <thing>DankPyon_Hide_MM_Griffin</thing>
+              <allowFemale>true</allowFemale>
+            </butcherBodyPart>
+          </value>
+        </li>
 
         <!-- Ieltxu -->
         <li Class="PatchOperationAdd">
@@ -361,17 +361,17 @@
           </value>
         </li>
 
-      <li Class="PatchOperationAdd">
-        <xpath>Defs/PawnKindDef [defName="MM_Ieltxu"]/lifeStages/li[3]</xpath>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/PawnKindDef [defName="MM_Ieltxu"]/lifeStages/li[3]</xpath>
 
-        <value>
-          <butcherBodyPart>
-            <bodyPartGroup>HeadAttackTool</bodyPartGroup>
-            <thing>DankPyon_Hide_MM_Ieltxu</thing>
-            <allowFemale>true</allowFemale>
-          </butcherBodyPart>
-        </value>
-      </li>
+          <value>
+            <butcherBodyPart>
+              <bodyPartGroup>HeadAttackTool</bodyPartGroup>
+              <thing>DankPyon_Hide_MM_Ieltxu</thing>
+              <allowFemale>true</allowFemale>
+            </butcherBodyPart>
+          </value>
+        </li>
 
         <!-- Kappa -->
         <li Class="PatchOperationAdd">
@@ -397,17 +397,17 @@
           </value>
         </li>
 
-      <li Class="PatchOperationAdd">
-        <xpath>Defs/PawnKindDef [defName="MM_Kappa"]/lifeStages/li[3]</xpath>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/PawnKindDef [defName="MM_Kappa"]/lifeStages/li[3]</xpath>
 
-        <value>
-          <butcherBodyPart>
-            <bodyPartGroup>HeadAttackTool</bodyPartGroup>
-            <thing>DankPyon_Hide_MM_Kappa</thing>
-            <allowFemale>true</allowFemale>
-          </butcherBodyPart>
-        </value>
-      </li>
+          <value>
+            <butcherBodyPart>
+              <bodyPartGroup>HeadAttackTool</bodyPartGroup>
+              <thing>DankPyon_Hide_MM_Kappa</thing>
+              <allowFemale>true</allowFemale>
+            </butcherBodyPart>
+          </value>
+        </li>
 
         <!-- Kitsune -->
         <li Class="PatchOperationAdd">
@@ -435,17 +435,17 @@
           </value>
         </li>
 
-      <li Class="PatchOperationAdd">
-        <xpath>Defs/PawnKindDef [defName="MM_Kitsune"]/lifeStages/li[3]</xpath>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/PawnKindDef [defName="MM_Kitsune"]/lifeStages/li[3]</xpath>
 
-        <value>
-          <butcherBodyPart>
-            <bodyPartGroup>HeadAttackTool</bodyPartGroup>
-            <thing>DankPyon_Hide_MM_Kitsune</thing>
-            <allowFemale>true</allowFemale>
-          </butcherBodyPart>
-        </value>
-      </li>
+          <value>
+            <butcherBodyPart>
+              <bodyPartGroup>HeadAttackTool</bodyPartGroup>
+              <thing>DankPyon_Hide_MM_Kitsune</thing>
+              <allowFemale>true</allowFemale>
+            </butcherBodyPart>
+          </value>
+        </li>
 
         <!-- Lernaean Hydra -->
         <li Class="PatchOperationAdd">
@@ -471,17 +471,17 @@
           </value>
         </li>
 
-      <li Class="PatchOperationAdd">
-        <xpath>Defs/PawnKindDef [defName="MM_LernaeanHydra"]/lifeStages/li[3]</xpath>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/PawnKindDef [defName="MM_LernaeanHydra"]/lifeStages/li[3]</xpath>
 
-        <value>
-          <butcherBodyPart>
-            <bodyPartGroup>FrontLeftLeg</bodyPartGroup>
-            <thing>DankPyon_Hide_MM_LernaeanHydra</thing>
-            <allowFemale>true</allowFemale>
-          </butcherBodyPart>
-        </value>
-      </li>
+          <value>
+            <butcherBodyPart>
+              <bodyPartGroup>FrontLeftLeg</bodyPartGroup>
+              <thing>DankPyon_Hide_MM_LernaeanHydra</thing>
+              <allowFemale>true</allowFemale>
+            </butcherBodyPart>
+          </value>
+        </li>
 
         <!-- Lesser Wyvern -->
         <li Class="PatchOperationAdd">
@@ -507,17 +507,17 @@
           </value>
         </li>
 
-      <li Class="PatchOperationAdd">
-        <xpath>Defs/PawnKindDef [defName="MM_LesserWyvern"]/lifeStages/li[3]</xpath>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/PawnKindDef [defName="MM_LesserWyvern"]/lifeStages/li[3]</xpath>
 
-        <value>
-          <butcherBodyPart>
-            <bodyPartGroup>HeadAttackTool</bodyPartGroup>
-            <thing>DankPyon_Hide_MM_LesserWyvern</thing>
-            <allowFemale>true</allowFemale>
-          </butcherBodyPart>
-        </value>
-      </li>
+          <value>
+            <butcherBodyPart>
+              <bodyPartGroup>HeadAttackTool</bodyPartGroup>
+              <thing>DankPyon_Hide_MM_LesserWyvern</thing>
+              <allowFemale>true</allowFemale>
+            </butcherBodyPart>
+          </value>
+        </li>
 
         <!-- Manticore -->
         <li Class="PatchOperationAdd">
@@ -543,17 +543,17 @@
           </value>
         </li>
 
-      <li Class="PatchOperationAdd">
-        <xpath>Defs/PawnKindDef [defName="MM_Manticore"]/lifeStages/li[3]</xpath>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/PawnKindDef [defName="MM_Manticore"]/lifeStages/li[3]</xpath>
 
-        <value>
-          <butcherBodyPart>
-            <bodyPartGroup>HeadAttackTool</bodyPartGroup>
-            <thing>DankPyon_Hide_MM_Manticore</thing>
-            <allowFemale>true</allowFemale>
-          </butcherBodyPart>
-        </value>
-      </li>
+          <value>
+            <butcherBodyPart>
+              <bodyPartGroup>HeadAttackTool</bodyPartGroup>
+              <thing>DankPyon_Hide_MM_Manticore</thing>
+              <allowFemale>true</allowFemale>
+            </butcherBodyPart>
+          </value>
+        </li>
 
         <!-- Pegasus -->
         <li Class="PatchOperationAdd">
@@ -579,17 +579,17 @@
           </value>
         </li>
 
-      <li Class="PatchOperationAdd">
-        <xpath>Defs/PawnKindDef [defName="MM_Pegasus"]/lifeStages/li[3]</xpath>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/PawnKindDef [defName="MM_Pegasus"]/lifeStages/li[3]</xpath>
 
-        <value>
-          <butcherBodyPart>
-            <bodyPartGroup>HeadAttackTool</bodyPartGroup>
-            <thing>DankPyon_Hide_MM_Pegasus</thing>
-            <allowFemale>true</allowFemale>
-          </butcherBodyPart>
-        </value>
-      </li>
+          <value>
+            <butcherBodyPart>
+              <bodyPartGroup>HeadAttackTool</bodyPartGroup>
+              <thing>DankPyon_Hide_MM_Pegasus</thing>
+              <allowFemale>true</allowFemale>
+            </butcherBodyPart>
+          </value>
+        </li>
 
         <!-- Phoenix -->
         <li Class="PatchOperationAdd">
@@ -615,17 +615,17 @@
           </value>
         </li>
 
-      <li Class="PatchOperationAdd">
-        <xpath>Defs/PawnKindDef [defName="MM_Phoenix"]/lifeStages/li[3]</xpath>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/PawnKindDef [defName="MM_Phoenix"]/lifeStages/li[3]</xpath>
 
-        <value>
-          <butcherBodyPart>
-            <bodyPartGroup>HeadAttackTool</bodyPartGroup>
-            <thing>DankPyon_Hide_MM_Phoenix</thing>
-            <allowFemale>true</allowFemale>
-          </butcherBodyPart>
-        </value>
-      </li>
+          <value>
+            <butcherBodyPart>
+              <bodyPartGroup>HeadAttackTool</bodyPartGroup>
+              <thing>DankPyon_Hide_MM_Phoenix</thing>
+              <allowFemale>true</allowFemale>
+            </butcherBodyPart>
+          </value>
+        </li>
 
         <!-- Qilin -->
         <li Class="PatchOperationAdd">
@@ -651,17 +651,17 @@
           </value>
         </li>
 
-      <li Class="PatchOperationAdd">
-        <xpath>Defs/PawnKindDef [defName="MM_Qilin"]/lifeStages/li[3]</xpath>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/PawnKindDef [defName="MM_Qilin"]/lifeStages/li[3]</xpath>
 
-        <value>
-          <butcherBodyPart>
-            <bodyPartGroup>HeadAttackTool</bodyPartGroup>
-            <thing>DankPyon_Hide_MM_Qilin</thing>
-            <allowFemale>true</allowFemale>
-          </butcherBodyPart>
-        </value>
-      </li>
+          <value>
+            <butcherBodyPart>
+              <bodyPartGroup>HeadAttackTool</bodyPartGroup>
+              <thing>DankPyon_Hide_MM_Qilin</thing>
+              <allowFemale>true</allowFemale>
+            </butcherBodyPart>
+          </value>
+        </li>
 
         <!-- Salamander -->
         <li Class="PatchOperationAdd">
@@ -689,17 +689,17 @@
           </value>
         </li>
 
-      <li Class="PatchOperationAdd">
-        <xpath>Defs/PawnKindDef [defName="MM_Salamander"]/lifeStages/li[3]</xpath>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/PawnKindDef [defName="MM_Salamander"]/lifeStages/li[3]</xpath>
 
-        <value>
-          <butcherBodyPart>
-            <bodyPartGroup>HeadAttackTool</bodyPartGroup>
-            <thing>DankPyon_Hide_MM_Salamander</thing>
-            <allowFemale>true</allowFemale>
-          </butcherBodyPart>
-        </value>
-      </li>
+          <value>
+            <butcherBodyPart>
+              <bodyPartGroup>HeadAttackTool</bodyPartGroup>
+              <thing>DankPyon_Hide_MM_Salamander</thing>
+              <allowFemale>true</allowFemale>
+            </butcherBodyPart>
+          </value>
+        </li>
 
         <!-- Tlilcoatl -->
         <li Class="PatchOperationAdd">
@@ -727,17 +727,17 @@
           </value>
         </li>
 
-      <li Class="PatchOperationAdd">
-        <xpath>Defs/PawnKindDef [defName="MM_Tlilcoatl"]/lifeStages/li[3]</xpath>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/PawnKindDef [defName="MM_Tlilcoatl"]/lifeStages/li[3]</xpath>
 
-        <value>
-          <butcherBodyPart>
-            <bodyPartGroup>HeadAttackTool</bodyPartGroup>
-            <thing>DankPyon_Hide_MM_Tlilcoatl</thing>
-            <allowFemale>true</allowFemale>
-          </butcherBodyPart>
-        </value>
-      </li>
+          <value>
+            <butcherBodyPart>
+              <bodyPartGroup>HeadAttackTool</bodyPartGroup>
+              <thing>DankPyon_Hide_MM_Tlilcoatl</thing>
+              <allowFemale>true</allowFemale>
+            </butcherBodyPart>
+          </value>
+        </li>
 
         <!-- Unicorn -->
         <li Class="PatchOperationAdd">
@@ -763,17 +763,17 @@
           </value>
         </li>
 
-      <li Class="PatchOperationAdd">
-        <xpath>Defs/PawnKindDef [defName="MM_Unicorn"]/lifeStages/li[3]</xpath>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/PawnKindDef [defName="MM_Unicorn"]/lifeStages/li[3]</xpath>
 
-        <value>
-          <butcherBodyPart>
-            <bodyPartGroup>HeadAttackTool</bodyPartGroup>
-            <thing>DankPyon_Hide_MM_Unicorn</thing>
-            <allowFemale>true</allowFemale>
-          </butcherBodyPart>
-        </value>
-      </li>
+          <value>
+            <butcherBodyPart>
+              <bodyPartGroup>HeadAttackTool</bodyPartGroup>
+              <thing>DankPyon_Hide_MM_Unicorn</thing>
+              <allowFemale>true</allowFemale>
+            </butcherBodyPart>
+          </value>
+        </li>
 
         <!-- Wild Minotaur -->
         <li Class="PatchOperationAdd">
@@ -799,17 +799,17 @@
           </value>
         </li>
 
-      <li Class="PatchOperationAdd">
-        <xpath>Defs/PawnKindDef [defName="MM_WildMinotaur"]/lifeStages/li[3]</xpath>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/PawnKindDef [defName="MM_WildMinotaur"]/lifeStages/li[3]</xpath>
 
-        <value>
-          <butcherBodyPart>
-            <bodyPartGroup>HeadAttackTool</bodyPartGroup>
-            <thing>DankPyon_Hide_MM_WildMinotaur</thing>
-            <allowFemale>true</allowFemale>
-          </butcherBodyPart>
-        </value>
-      </li>
+          <value>
+            <butcherBodyPart>
+              <bodyPartGroup>HeadAttackTool</bodyPartGroup>
+              <thing>DankPyon_Hide_MM_WildMinotaur</thing>
+              <allowFemale>true</allowFemale>
+            </butcherBodyPart>
+          </value>
+        </li>
 
         <!-- Xiezhi -->
         <li Class="PatchOperationAdd">
@@ -835,19 +835,19 @@
           </value>
         </li>
 
-      <li Class="PatchOperationAdd">
-        <xpath>Defs/PawnKindDef [defName="MM_Xiezhi"]/lifeStages/li[3]</xpath>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/PawnKindDef [defName="MM_Xiezhi"]/lifeStages/li[3]</xpath>
 
-        <value>
-          <butcherBodyPart>
-            <bodyPartGroup>HeadAttackTool</bodyPartGroup>
-            <thing>DankPyon_Hide_MM_Xiezhi</thing>
-            <allowFemale>true</allowFemale>
-          </butcherBodyPart>
-        </value>
-      </li>
+          <value>
+            <butcherBodyPart>
+              <bodyPartGroup>HeadAttackTool</bodyPartGroup>
+              <thing>DankPyon_Hide_MM_Xiezhi</thing>
+              <allowFemale>true</allowFemale>
+            </butcherBodyPart>
+          </value>
+        </li>
 
-    </operations>
-  </match>
-</Operation>
+      </operations>
+    </match>
+  </Operation>
 </Patch>

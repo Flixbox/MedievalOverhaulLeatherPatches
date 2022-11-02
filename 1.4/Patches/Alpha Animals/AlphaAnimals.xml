@@ -3380,6 +3380,229 @@
 				</li>
 
 
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<ThingDef ParentName="DankPyon_HideBaseHuge">
+							<defName>DankPyon_Hide_AA_Behemoth</defName>
+							<label>huge behemoth hide</label>
+							<graphicData>
+								<texPath>Resources/HideHuge</texPath>
+								<color>(45,45,57)</color>
+							</graphicData>
+							<statBases>
+								<MarketValue>2232</MarketValue>
+							</statBases>
+							<stackLimit>1</stackLimit>
+							<butcherProducts Inherit="False">
+								<AA_Leather_Behemoth>400</AA_Leather_Behemoth>
+							</butcherProducts>
+							<stuffProps>
+								<color>(45,45,57)</color>
+							</stuffProps>
+						</ThingDef>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/PawnKindDef [defName="AA_Behemoth"]/lifeStages//li[3]</xpath>
+
+					<value>
+						<butcherBodyPart>
+							<bodyPartGroup>HeadAttackTool</bodyPartGroup>
+							<thing>DankPyon_Hide_AA_Behemoth</thing>
+							<allowFemale>true</allowFemale>
+						</butcherBodyPart>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<ThingDef ParentName="DankPyon_HideBaseSmall">
+							<defName>DankPyon_Hide_AA_Murkling</defName>
+							<label>small murkling hide</label>
+							<graphicData>
+								<texPath>Resources/HideSmall</texPath>
+								<graphicClass>Graphic_StackCount</graphicClass>
+								<color>(10,10,10)</color>
+							</graphicData>
+							<statBases>
+								<MarketValue>30.6</MarketValue>
+							</statBases>
+							<stackLimit>6</stackLimit>
+							<butcherProducts Inherit="False">
+								<Leather_Night>400</Leather_Night>
+							</butcherProducts>
+							<stuffProps>
+								<color>(10,10,10)</color>
+							</stuffProps>
+						</ThingDef>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/PawnKindDef [defName="AA_Murkling"]/lifeStages//li[3]</xpath>
+
+
+					<value>
+						<butcherBodyPart>
+							<bodyPartGroup>HeadAttackTool</bodyPartGroup>
+							<thing>DankPyon_Hide_AA_Murkling</thing>
+							<allowFemale>true</allowFemale>
+						</butcherBodyPart>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<ThingDef ParentName="DankPyon_HideBaseHuge">
+							<defName>DankPyon_Hide_AA_DuskProwler</defName>
+							<label>huge dusk prowler hide</label>
+							<graphicData>
+								<texPath>Resources/HideHuge</texPath>
+								<color>(10,10,10)</color>
+							</graphicData>
+							<statBases>
+								<MarketValue>30.6</MarketValue>
+							</statBases>
+							<stackLimit>1</stackLimit>
+							<butcherProducts Inherit="False">
+								<AA_Leather_Behemoth>400</AA_Leather_Behemoth>
+							</butcherProducts>
+							<stuffProps>
+								<color>(10,10,10)</color>
+							</stuffProps>
+						</ThingDef>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/PawnKindDef [defName="AA_DuskProwler"]/lifeStages//li[3]</xpath>
+
+
+					<value>
+						<butcherBodyPart>
+							<bodyPartGroup>HeadAttackTool</bodyPartGroup>
+							<thing>DankPyon_Hide_AA_DuskProwler</thing>
+							<allowFemale>true</allowFemale>
+						</butcherBodyPart>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<ThingDef ParentName="DankPyon_HideBaseLarge">
+							<defName>DankPyon_Hide_AA_DarkVandal</defName>
+							<label>large dark vandal hide</label>
+							<graphicData>
+								<texPath>Resources/HideHuge</texPath>
+								<color>(10,10,10)</color>
+							</graphicData>
+							<statBases>
+								<MarketValue>30.6</MarketValue>
+							</statBases>
+							<stackLimit>1</stackLimit>
+							<butcherProducts Inherit="False">
+								<AA_Leather_Behemoth>48</AA_Leather_Behemoth>
+							</butcherProducts>
+							<stuffProps>
+								<color>(10,10,10)</color>
+							</stuffProps>
+						</ThingDef>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/PawnKindDef [defName="AA_DarkVandal"]/lifeStages//li[3]</xpath>
+
+
+					<value>
+						<butcherBodyPart>
+							<bodyPartGroup>HeadAttackTool</bodyPartGroup>
+							<thing>DankPyon_Hide_AA_DarkVandal</thing>
+							<allowFemale>true</allowFemale>
+						</butcherBodyPart>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<ThingDef ParentName="DankPyon_HideBaseHuge">
+							<defName>DankPyon_Hide_AA_Thunderox</defName>
+							<label>huge thunderox hide</label>
+							<graphicData>
+								<texPath>Resources/HideHuge</texPath>
+								<color>(10,10,10)</color>
+							</graphicData>
+							<statBases>
+								<MarketValue>30.6</MarketValue>
+							</statBases>
+							<stackLimit>1</stackLimit>
+							<butcherProducts Inherit="False">
+								<AA_Leather_Behemoth>100</AA_Leather_Behemoth>
+							</butcherProducts>
+							<stuffProps>
+								<color>(10,10,10)</color>
+							</stuffProps>
+						</ThingDef>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/PawnKindDef [defName="AA_Thunderox"]/lifeStages//li[3]</xpath>
+
+
+					<value>
+						<butcherBodyPart>
+							<bodyPartGroup>HeadAttackTool</bodyPartGroup>
+							<thing>DankPyon_Hide_AA_Thunderox</thing>
+							<allowFemale>true</allowFemale>
+						</butcherBodyPart>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<ThingDef ParentName="DankPyon_HideBaseHuge">
+							<defName>DankPyon_Hide_AA_ShadowCharger</defName>
+							<label>huge shadow charger hide</label>
+							<graphicData>
+								<texPath>Resources/HideHuge</texPath>
+								<color>(10,10,10)</color>
+							</graphicData>
+							<statBases>
+								<MarketValue>30.6</MarketValue>
+							</statBases>
+							<stackLimit>1</stackLimit>
+							<butcherProducts Inherit="False">
+								<Leather_Night>100</Leather_Night>
+							</butcherProducts>
+							<stuffProps>
+								<color>(10,10,10)</color>
+							</stuffProps>
+						</ThingDef>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/PawnKindDef [defName="AA_ShadowCharger"]/lifeStages//li[3]</xpath>
+
+
+					<value>
+						<butcherBodyPart>
+							<bodyPartGroup>HeadAttackTool</bodyPartGroup>
+							<thing>DankPyon_Hide_AA_ShadowCharger</thing>
+							<allowFemale>true</allowFemale>
+						</butcherBodyPart>
+					</value>
+				</li>
+
+
 			</operations>
 		</match>
 	</Operation>
