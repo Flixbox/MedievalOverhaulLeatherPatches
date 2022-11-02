@@ -1,0 +1,364 @@
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>MorrowRim</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Normal</success>
+			<operations>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideLarge"]/ingredients/li[1]/filter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_Clannfear</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideLarge"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_Clannfear</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideLarge"]/ingredients/li[1]/filter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_Daedroth</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideLarge"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_Daedroth</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideHuge"]/ingredients/li[1]/filter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_Ogrim</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideHuge"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_Ogrim</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideSmall"]/ingredients/li[1]/filter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_Scamp</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideSmall"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_Scamp</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideLarge"]/ingredients/li[1]/filter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_Hunger</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideLarge"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_Hunger</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideSmall"]/ingredients/li[1]/filter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_OgrimSmol</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideSmall"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_OgrimSmol</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideHuge"]/ingredients/li[1]/filter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_SiltStrider</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideHuge"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_SiltStrider</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideLarge"]/ingredients/li[1]/filter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_NixHound</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideLarge"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_NixHound</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideHuge"]/ingredients/li[1]/filter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_AshPanther</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideHuge"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_AshPanther</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideHuge"]/ingredients/li[1]/filter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_Guar</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideHuge"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_Guar</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideHuge"]/ingredients/li[1]/filter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_AlbinoGuar</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideHuge"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_AlbinoGuar</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideHuge"]/ingredients/li[1]/filter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_Alit</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideHuge"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_Alit</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideHuge"]/ingredients/li[1]/filter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_Kagouti</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideHuge"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_Kagouti</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideLarge"]/ingredients/li[1]/filter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_Durzog</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideLarge"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_Durzog</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideLarge"]/ingredients/li[1]/filter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_CliffRacer</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideLarge"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_CliffRacer</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideHuge"]/ingredients/li[1]/filter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_TigerGuar</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideHuge"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_TigerGuar</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideTiny"]/ingredients/li[1]/filter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_BantamGuar</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideTiny"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_BantamGuar</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideHuge"]/ingredients/li[1]/filter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_Wormmouth</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideHuge"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_Wormmouth</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideTiny"]/ingredients/li[1]/filter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_Scuttler</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideTiny"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_Scuttler</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideSmall"]/ingredients/li[1]/filter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_Vvardvark</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideSmall"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_Vvardvark</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideLarge"]/ingredients/li[1]/filter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_Netch</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideLarge"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_Netch</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideLarge"]/ingredients/li[1]/filter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_RetchingNetch</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideLarge"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_RetchingNetch</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideLarge"]/ingredients/li[1]/filter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_CorprusStalker</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideLarge"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_CorprusStalker</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideLarge"]/ingredients/li[1]/filter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_CorprusLame</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideLarge"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_CorprusLame</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideLarge"]/ingredients/li[1]/filter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_CorprusBloated</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideLarge"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_CorprusBloated</li>
+					</value>
+				</li>
+
+			</operations>
+		</match>
+	</Operation>
+</Patch>

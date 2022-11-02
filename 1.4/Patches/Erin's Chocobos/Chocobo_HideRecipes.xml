@@ -1,0 +1,28 @@
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Erin's Chocobos</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Normal</success>
+			<operations>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideLarge"]/ingredients/li[1]/filter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_Chocobo</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideLarge"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_Chocobo</li>
+					</value>
+				</li>
+
+			</operations>
+		</match>
+	</Operation>
+</Patch>

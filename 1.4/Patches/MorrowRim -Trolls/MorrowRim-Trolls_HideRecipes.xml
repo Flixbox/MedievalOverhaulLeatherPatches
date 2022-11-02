@@ -1,0 +1,88 @@
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>MorrowRim - Trolls</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Normal</success>
+			<operations>
+				<!-- Light Troll T1 -->
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideHuge"]/ingredients/li[1]/filter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_TrollLight</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideHuge"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_TrollLight</li>
+					</value>
+				</li>
+
+				<!-- Pygmy Troll -->
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideHuge"]/ingredients/li[1]/filter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_TrollLightPygmy</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideHuge"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_TrollLightPygmy</li>
+					</value>
+				</li>
+
+				<!-- Heavy Troll T2 -->
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideHuge"]/ingredients/li[1]/filter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_TrollHeavy</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideHuge"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_TrollHeavy</li>
+					</value>
+				</li>
+
+				<!-- Grahl -->
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideHuge"]/ingredients/li[1]/filter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_TrollGrahl</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideHuge"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_TrollGrahl</li>
+					</value>
+				</li>
+
+				<!-- Gehenoth -->
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideHuge"]/ingredients/li[1]/filter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_TrollGehenoth</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef [defName = "DankPyon_TreatAnyHideHuge"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>DankPyon_Hide_TrollGehenoth</li>
+					</value>
+				</li>												
+
+			</operations>
+		</match>
+	</Operation>
+</Patch>
