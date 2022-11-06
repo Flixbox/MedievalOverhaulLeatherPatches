@@ -3543,7 +3543,7 @@
 							</statBases>
 							<stackLimit>1</stackLimit>
 							<butcherProducts Inherit="False">
-								<AA_Leather_Behemoth>100</AA_Leather_Behemoth>
+								<Leather_Night>100</Leather_Night>
 							</butcherProducts>
 							<stuffProps>
 								<color>(10,10,10)</color>
